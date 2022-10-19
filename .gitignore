@@ -128,7 +128,7 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# Папки, создаваемые средой разработки
+# VS Code dirs
 .idea
 .DS_Store
 .AppleDouble
@@ -142,13 +142,12 @@ dmypy.json
 
 # Local History for Visual Studio Code
 .history/
-
 .mypy_cache
 
-# папки со статикой и медиа
+# Folders with static and media
 media/
 
-# Файл с запросами REST_client
+# REST_client queries
 REST_client_requests.http
 
 # dump.py
