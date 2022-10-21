@@ -12,8 +12,9 @@ Python 3.7 / Django 2.2.16 / Django REST framework 3.12.4
 ```
 # clone repository, create virtual enviroment and install dependencies
 git clone https://github.com/Immalakhovskii/api_yamdb.git
-cd api_yamdb
+cd api_yamdb/
 python -m venv venv
+python.exe -m pip install --upgrade pip
 python -m pip install -r requirements.txt
 
 # activate virtual enviroment 
@@ -30,7 +31,7 @@ python manage.py createsuperuser        # or create superuser for clear project
 # start!
 python manage.py runserver
 ```
-Now admin site of the project available at http://127.0.0.1:8000/admin/. API requests can be performed by addresses starting with http://127.0.0.1:8000/api/v1/ (see full list of available requests here: http://127.0.0.1:8000/redoc/). If prearranged database was loaded the project has 10 genres, 4 titles, 4 categories and superuser Admin
+Now admin site of the project available at http://127.0.0.1:8000/admin/. API requests can be performed by addresses starting with http://127.0.0.1:8000/api/v1/ (see full list of available requests here: http://127.0.0.1:8000/redoc/). If prearranged database dump was loaded the project has 10 genres, 4 titles, 4 categories and superuser Admin
 ```
 # accesses to admin zone as Admin if db_dump loaded
 Username: Admin
