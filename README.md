@@ -36,11 +36,11 @@ Now admin site of the project available at http://127.0.0.1:8000/admin/. API req
 # accesses to admin zone as Admin if db_dump loaded
 Username: Admin
 Password: youllneverguess
-``` 
-
-- Actual enviromental variables for the YaMDb stored at api_yamdb/.env.example. Safety precautions ignored for the public availability of the project
+```
 
 To stop development server press **ctrl (command) + c**
 
+- Actual enviromental variables for the YaMDb stored at api_yamdb/.env.example. Safety precautions ignored for the public availability of the project
+
 ### Get JWT token ###
-- To receive **token** make POST request with "email" and "username" to http://127.0.0.1:8000/api/v1/auth/signup/. After receiving confirmation code make POST request with "confirmation_code" and "username" to http://127.0.0.1:8000/api/v1/auth/token/. Token must be passed with **"Bearer"** header
+- To receive **token** make POST request with "email" and "username" to http://127.0.0.1:8000/api/v1/auth/signup/. After receiving confirmation code make POST request with "confirmation_code" and "username" to http://127.0.0.1:8000/api/v1/auth/token/. Token must be passed with **Bearer** header
